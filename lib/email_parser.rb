@@ -14,10 +14,11 @@ class EmailParser
   def parse
     emails.split(/\s|,/).each do |emails|
       @@list << emails
+      @@list.delete("")
+      @@list.uniq
     end
 
-@@list.delete("")
-@@list.uniq
+
 binding.pry
 
   end #def parse
