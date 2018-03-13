@@ -18,7 +18,7 @@ class EmailParser
 
 @@list.delete("")
 @@list.uniq
-
+binding.pry
 
   end #def parse
 
