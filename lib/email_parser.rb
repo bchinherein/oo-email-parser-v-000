@@ -18,9 +18,6 @@ class EmailParser
       @@list.uniq
     end
 
-
-binding.pry
-
   end #def parse
 
 end #def class EmailParser
